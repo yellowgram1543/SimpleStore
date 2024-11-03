@@ -62,7 +62,7 @@ header {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 1.8rem;
 }
 
 .team-member {
@@ -77,7 +77,7 @@ header {
 .team-member img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 40%;
   margin-bottom: 1rem;
 }
 
