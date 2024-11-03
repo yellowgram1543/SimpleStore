@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimante E-Commerce</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="currency-converter.css">
+    <script src="currency-converter.js"></script>
+    <script src="cart.js"></script>
+    <script src="index.js"></script>
+    
+    <style>
+    /* Styling for the cart item count */
+    .cart-count {
+        position: absolute;
+        top: -5px;
+        right: -10px;
+        background-color: #d9534f;
+        color: white;
+        padding: 0 5px;
+        border-radius: 50%;
+        font-size: 0.8rem;
+        display: none;
+    }
+    </style>
+    
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">SimplyShop</div>
+            <div class="header-icons">
+                <a href="login.html">Login</a>
+                <a href="cart.html">Cart</a>
+                <a href="about.html">About</a>
+                <a href="checkout.html">Checkout</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Elevate Your Style</h1>
+            <p>Discover our curated collection of everyday essentials.</p>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="product-grid">
+        <div class="product-item">
+            <img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/gold-black-grey-gradient-full-rim-cat-eye-vincent-chase-polarized-vintage-vc-s11759-c3-sunglasses_g_4992_6_07_22.jpg" alt="Product 1">
+            <h3>Gold Black Grey Gradient Full Rim Cat Eye Vincent Chase Polarized Blend Sunglass</h3>
+            <p>$0.99</p>
+            <div class="product">
+                <button class="add-to-cart" data-id="1" data-name="Gold Black Grey Gradient Full Rim Cat Eye Vincent Chase Polarized Blend Sunglass" data-price="0.99">Add to Cart</button>
+            </div>
+            
+        </div>
+        <div class="product-item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQPPNHOUW9869KY_zjtWuAEMjdgMq4N37brw9JFpesPPDsxLNtT_CNt7aiNtCnam0rGQmoYA0ocFxPwod9hu9jSWVp15RH92ZGrqxGSemNU" alt="Product 2">
+            <h3>Juneberry Printed Women Round Neck Black T-shirt</h3>
+            <p>$2.03</p>
+            <div class="product">
+                <button class="add-to-cart" data-id="2" data-name="Juneberry Printed Women Round Neck Black T-shirt" data-price="2.03">Add to Cart</button>
+            </div>
+            
+        </div>
+        <div class="product-item">
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJVP3o7MMShWj8Q2Jni1Cntd0SkkVDw_EYZTsB3x-FWbEfD-9_wACRT5fhXrb1H9yIcyCPehvrRuUbRCHljlfdig3A3JC3L2VtEx8qj3HvWknuk27RFIgAKw" alt="Product 3">
+            <h3>Ankle-Length Boots with Zip Closure For Women</h3>
+            <p>$60</p>
+            <div class="product">
+                <button class="add-to-cart" data-id="3" data-name="Ankle-Length Boots with Zip Closure For Women" data-price="60">Add to Cart</button>
+            </div>
+            
+        </div>
+        <div class="product-item">
+            <img src="https://img.tatacliq.com/images/i18//437Wx649H/MP000000022804467_437Wx649H_202407041914431.jpeg" alt="Product 4">
+            <h3>Black Regular Fit Blazer</h3>
+            <p>$83.72</p>
+                <button class="add-to-cart" data-id="4" data-name="Black Regular Fit Blazer" data-price="83.72">Add to Cart</button>
+            </div>            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 SimpleStore. All rights reserved.</p>
+            <p>Follow us on:
+                <a href="#">Instagram</a> |
+                <a href="#">Facebook</a> |
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

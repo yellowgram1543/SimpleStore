@@ -1,0 +1,161 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Color Palette */
+:root {
+  --main-bg: #f6e5e5;
+  --primary-color: #201e1e;
+  --background-color: rgb(56, 49, 49);
+  --secondary-color: #a9a5a5;
+  --accent-color: #d9534f;
+  --footer-color: rgb(16, 16, 15);
+}
+
+/* Header */
+header {
+  background-color: var(--background-color);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-icons a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--background-color);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+/* Product Grid */
+.product-grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-item h3 {
+  margin: 10px 0;
+}
+
+.product-item p {
+  margin: 10px 0;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: darkred;
+}
+
+/* Footer */
+footer {
+  background-color: var(--footer-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* .cart-count.show {
+  transform: scale(1);
+}  */
+/* Cart count badge adjustments */
+/* .cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  min-width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+
+*/

@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should take up available space */
+.main-content {
+  flex: 1;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-us h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Team Container */
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+/* Social Links */
+.social-links {
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: #d9534f;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer p {
+  font-size: 0.9rem;
+}

@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-icons a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* Cart Section */
+.cart {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-item {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.cart-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.total-price {
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Remove Button */
+.remove-from-cart {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-from-cart:hover {
+  background-color: darkred;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto; /* Ensures footer is pushed to the bottom */
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

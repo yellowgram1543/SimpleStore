@@ -1,0 +1,19 @@
+.currency-toggle-btn {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.currency-toggle-btn:hover {
+  background-color: #c9302c;
+  transform: translateY(-2px);
+}
+
+.currency-toggle-btn:active {
+  transform: translateY(0);
+}
